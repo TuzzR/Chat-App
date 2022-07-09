@@ -1,0 +1,22 @@
+{
+  "name": "cschat",
+  "version": "1.0.0",
+  "description": "CS Chat App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Tushar Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
